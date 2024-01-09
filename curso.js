@@ -1,11 +1,12 @@
 function somar(vitorias, derrotas){
-   return vitorias - derrotas
+    let somatorio = vitorias - derrotas    
+    return somatorio
 }
 
-let resultado = somar(15,2)
+let resultado = somar(51,2)
 console.log(resultado)
 
-let rank = "ferro"
+let rank = ""
 
 if (resultado < 11){
     rank = "Ferro"

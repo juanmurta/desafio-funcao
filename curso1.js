@@ -1,3 +1,27 @@
+let userName = getFirstName1("Juan Tardelly Aguiar Murta")
+
+console.log("Seja bem vindo " + userName)
+
+
+function getFirstName1(name){
+    let firstName = name.split(" ")[0]
+    return firstName
+}
+
+
+let userName1 = getFirstName("Juan-Tardelly-Aguiar-Murta", "-")
+
+console.log("Seja bem vindo " + userName1)
+
+
+function getFirstName(name, splitchar){
+    let firstName = name.split(splitchar)[0]
+    return firstName
+}
+
+
+
+
 
 teste("pao teste")
 var nome
